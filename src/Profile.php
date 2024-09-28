@@ -35,7 +35,7 @@ class Profile
             $this->name = $info['name'];
             $this->paragraph1 = $info['paragraph1'];
             $this->paragraph2 = $info['paragraph2'];
-            $this->paragraph3 = $info['paragrapg3'];
+            $this->paragraph3 = $info['paragraph3'];
             $this->paragraph4 = $info['paragraph4'];
             $this->paragraph5 = $info['paragraph5'];
             $this->paragraph6 = $info['paragraph6'];
@@ -56,10 +56,10 @@ class Profile
 
     public function getFullName()
     {
-        return $this->name['title'] . ' ' . $this->name['first_name'] . ' ' . $this->name['middle_initial'] . '. ' . $this->name['last_name'];
+        return $this->name['title'] . ' ' . $this->name['first_name'] . ' ' . $this->name['middle_name'] . ' ' . $this->name['last_name'];
     }
 
-    public function getparagraph1(){
+    public function getParagraph1(){
         return $this->paragraph1;
     }
     public function getParagraph2(){
