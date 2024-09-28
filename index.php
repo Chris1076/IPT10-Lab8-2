@@ -7,6 +7,7 @@ require "init.php";
 require "src/ProfileHandler.php";
 
 use Klein\Klein as Route;
+use Exception;
 
 try {
 
