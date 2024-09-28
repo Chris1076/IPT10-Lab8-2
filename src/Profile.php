@@ -59,6 +59,36 @@ class Profile
         return $this->name['title'] . ' ' . $this->name['first_name'] . ' ' . $this->name['middle_initial'] . '. ' . $this->name['last_name'];
     }
 
+    public function getparagraph1(){
+        return $this->paragraph1;
+    }
+    public function getParagraph2(){
+        return $this->paragraph2;
+    }
+    public function getParagraph3(){
+        return $this->paragraph3;
+    }
+    public function getParagraph4(){
+        return $this->paragraph4;
+    }
+    public function getParagraph5(){
+        return $this->paragraph5;
+    }
+    public function getParagraph6(){
+        return $this->paragraph6;
+    }
+    public function getParagraph7(){
+        return $this->paragraph7;
+    }
+    public function getParagraph8(){
+        return $this->paragraph8;
+    }
+    public function getParagraph9(){
+        return $this->paragraph9;
+    }
+    public function getParagraph10(){
+        return $this->paragraph10;
+    }
     // public function getContactDetails()
     // {
     //     return $this->contactInformation;
